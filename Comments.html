@@ -1,217 +1,195 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-.Leftborder {
-	width : 10%;
-	background-color: white;
-	height : 2000px;
-	float : left;
-}
+<style> 
+    .flex-container {
+        display: -webkit-flex;
+        display: flex;
+        width: 1550px;
+        height: 1100px;
+        margin-bottom : 20 px;
+        flex-direction: row;
+    }
 
-.Rightborder {
-	width : 10%;
-	height : 2000px;
-	float : right;
-}
+    .side {
+        width: 150px;
+        height: 100px;
+    }
 
-.Comments {
-	width : 90%;
-	background-color: lightgrey;
-	min-height: 2000px;
-	float : center;
-}
+    .rightside {
+        width: 92px;
+        height: 100px;
+    }
 
-.header {
-	padding-top: 5px;
-	width : 100%;
-	background-color: orange;
-	height : 25px;
-	float : center;
-}
+    .Comments {
+        background-color: lightgrey;
+        width: 1200px;
+        height: 1850px;
+        float: center;
+    }
 
+    .item {
+        padding-right: 50px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+        white-space: pre-line;
+    }
 
-.headerdiv {
-	margin-left: 5px;
-	width : 8%;
-	background-color: orange;
-	height : 20px;
-	float : left;
-}
+    .Newsheader {
+        background-color: orange;
+        height:47px;
+    }
 
-
-.login {
-	margin-right: 5px;
-	width : 10%;
-	background-color: orange;
-	height : 23px;
-	float : right;
-	text-align: right;
-}
-
-.more {
-	margin-left: 5px;
-}
-
-.Bottomline {
-	width : 100%;
-	background-color: orange;
-	height : 1px;
-}
-
-.Bottomcontent {
-	margin: 15px 120px;
-	width : 70%;
-	height : 60px;
-    float : right;
-	text-align: center;
-}
-
-.header p {
-
-	word-spacing: 4px;
-}
-
-p {
-
- margin-top: 0; 
- 
-}
-
-
+    .Bottomline {
+        width : 100%;
+        background-color: orange;
+        height : 1px;
+    }
 </style>
 </head>
 <body>
-	<div class ="Leftborder"></div>
-	<div class ="Rightborder"></div>
-	<div class ="Comments">
-		<div class="header">
-			<div class ="headerdiv" >
-				<div onclick="location.href='file:///D:/Projects/Hacker_news/Comments.html'">
-					<p><b>Hacker News</b></p>
-				</div>
-			</div>
+    <div class="flex-container">
+     <div class="side"></div>
+        <div class="Comments">
+
+            <div class ="Newsheader">
+                    
+                    <div class="headerdiv" style="padding-top: 15px;" >
+                        <b style="margin-left:5px;">Hacker News</b> <h style="margin-left: 4px;">new | comments | show | ask | jobs | submit</h><h style ="float: right;">login</h>
+                    </div>
+                    
+            </div>
+
+            
+           
+            <div class="item"><font size ="2"> &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+                <font size ="3">&#8680; 550 Civil servants</font>
+                <font size ="3">Show HN: StackImpact - Python Production profiler : CPU, Memory, Exceptions </font> 
+            </div>
+            <div class="item"><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font>
+                <font size ="3">&#8680;I think you just invented the dirigible?</font>
+            </div>
+            <div class="item"><font size ="2" >&#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+                <font size ="3">&#8680;PrivacyBadger generally blocks the ad-block blocking scripts (for now)</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+                <font size ="3">&#8680;I thought of that the other day, wondering how well you could possibly control a hot air balloon (or helium) based drone. My guess is wind forces etc would be extremely difficult to deal with</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+               <font size ="3"> &#8680;The entire scientific Python stack was essentially relying upon on the “free time” work of only about 30 people—and no one had funding!
+                30 people? I remember a time when a certain fruit company would enter a field, literally hire all 30 of those guys, and put them behind closed doors. Then in 2 years they'd dominate the field for the next decade.
+                Are these guys turning down offers? Or is the fruit company that poorly managed now?</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                 <font size ="3">&#8680;Actually, ARM64 Windows uses double-WoW64. Two WoW64s are running at the same time - one running ARM32 code - and another x86_32.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;That seems like a conservative estimate, IMO, considering how lucrative/easy it is to get into Messenger/Groups spam.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;This is accurate (I take losses on an LLC occasionally against W2 income).</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;especially not retroactively, didn't know they do that :(
+                    Regardless, there's always another mirror somewhere else; nothing on the internet dies.
+                    http://archive.is/GXxIc</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                 <font size ="3">&#8680;I love awk, it's my go-to. Somehow learning perl sufficiently (yet another programming language) is more mental work I'd rather not undertake, what with its idiosyncracies and often implicit nature.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                 <font size ="3">&#8680;Isn't the grocery store already basically one large meal kit?</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;especially not retroactively, didn't know they do that :(
+                    Regardless, there's always another mirror somewhere else; nothing on the internet dies.
+                    http://archive.is/GXxIc</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;That seems like a conservative estimate, IMO, considering how lucrative/easy it is to get into Messenger/Groups spam.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font>
+                <font size ="3">&#8680;I think you just invented the dirigible?</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font>
+                <font size ="3">&#8680;I think you just invented the dirigible?</font>
+            </div>
+             <div class="item"><font size ="2" >&#9652;Pll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+                <font size ="3">&#8680;PrivacyBadger generally blocks the ad-block blocking scripts (for now)</font>
+            </div>
+            <div class="item"><font size ="2" >&#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+                <font size ="3">&#8680;PrivacyBadger generally blocks the ad-block blocking scripts (for now)</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font>
+                <font size ="3">&#8680;I think you just invented the dirigible?</font>
+            </div>
+            <div class="item"><font size ="2" >&#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+                <font size ="3">&#8680;PrivacyBadger generally blocks the ad-block blocking scripts (for now)</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;That seems like a conservative estimate, IMO, considering how lucrative/easy it is to get into Messenger/Groups spam.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font>
+                <font size ="3">&#8680;I think you just invented the dirigible?</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font>
+                <font size ="3">&#8680;I think you just invented the dirigible?</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font>
+                <font size ="3">&#8680;I think you just invented the dirigible?</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                 <font size ="3">&#8680;VW and european banks.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                 <font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;VW and european banks.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;VW and european banks.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;VW and european banks.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                 <font size="1">217 points by mano 4 hours ago | hide | 54 comments</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font>
+                <font size ="3">&#8680;This is accurate (I take losses on an LLC occasionally against W2 income).</font>
+            </div>
+            <div class="item"><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font>
+                 <font size ="3">&#8680;I thought of that the other day, wondering how well you could possibly control a hot air balloon (or helium) based drone. My guess is wind forces etc would be extremely difficult to deal with</font>
+            </div>
 
 
-			<div class="login">
-				<p>login</p>
-			</div>
 
-			<p> new | comments | show | ask | jobs | submit </p>
-	
-		</div>
-
-			<p><font size ="2"> &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font><br>
-			<font size ="3">&#8680; 550 Civil servants <br>
-			Show HN: StackImpact - Python Production profiler : CPU, Memory, Exceptions </font> </p>
-
-			<p><font size ="2" > &#9652;abiox 0 minutes ago | parent | on: The slow death of the electric guitar</font><br>
-			<font size ="3">&#8680;I think you just invented the dirigible?</font></p>
-
-			<p><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font><br>
-			<font size ="3">&#8680;PrivacyBadger generally blocks the ad-block blocking scripts (for now)</font></p>
-
-			<p><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font><br>
-			<font size ="3">&#8680;I thought of that the other day, wondering how well you could possibly control a hot air balloon (or helium) based drone. My guess is wind forces etc would be extremely difficult to deal with</font></p>
-
-			<p><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font><br>
-			<font size ="3"> &#8680;The entire scientific Python stack was essentially relying upon on the “free time” work of only about 30 people—and no one had funding!
-			30 people? I remember a time when a certain fruit company would enter a field, literally hire all 30 of those guys, and put them behind closed doors. Then in 2 years they'd dominate the field for the next decade.
-			Are these guys turning down offers? Or is the fruit company that poorly managed now?</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;Actually, ARM64 Windows uses double-WoW64. Two WoW64s are running at the same time - one running ARM32 code - and another x86_32.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;That seems like a conservative estimate, IMO, considering how lucrative/easy it is to get into Messenger/Groups spam.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;This is accurate (I take losses on an LLC occasionally against W2 income).</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;especially not retroactively, didn't know they do that :(<br>
-				Regardless, there's always another mirror somewhere else; nothing on the internet dies.<br>
-				http://archive.is/GXxIc</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I love awk, it's my go-to. Somehow learning perl sufficiently (yet another programming language) is more mental work I'd rather not undertake, what with its idiosyncracies and often implicit nature.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;Isn't the grocery store already basically one large meal kit?</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;That seems like a conservative estimate, IMO, considering how lucrative/easy it is to get into Messenger/Groups spam.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;It hasn't because it's based on a Microsoft product which already existed - Virtual PC for PowerPC Macs.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;VW and european banks.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;VW and european banks.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;VW and european banks.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;VW and european banks.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;VW and european banks.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;VW and european banks.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;VW and european banks.</font></p>
-			
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;I thought that was achieved by having applications in Java bytecode with a Java virtual machine doing just in time compilation.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;That seems like a conservative estimate, IMO, considering how lucrative/easy it is to get into Messenger/Groups spam.</font></p>
-
-			<p><font size ="2" > &#9652;my123 0 minutes ago | parent | on: Rise of ARM: First Windows 10 PC Running Snapdrago...</font><br>
-			<font size ="3">&#8680;This is accurate (I take losses on an LLC occasionally against W2 income).</font></p>
-
-			<p><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font><br>
-			<font size ="3">&#8680;I thought of that the other day, wondering how well you could possibly control a hot air balloon (or helium) based drone. My guess is wind forces etc would be extremely difficult to deal with</font></p>
-
-			<p><font size ="2" > &#9652;PatentTroll 4 hours ago | parent | on: Even moderate drinking causes atrophy</font><br>
-			<font size ="3"> &#8680;The entire scientific Python stack was essentially relying upon on the “free time” work of only about 30 people—and no one had funding!
-			30 people? I remember a time when a certain fruit company would enter a field, literally hire all 30 of those guys, and put them behind closed doors. Then in 2 years they'd dominate the field for the next decade.
-			Are these guys turning down offers? Or is the fruit company that poorly managed now?</font></p>
-
-			<div class="more">
-				<p>More</p>
-			</div>
-			
-			<div class = "Bottomline"></div>
-
-			<div class = "Bottomcontent">
-				<p>Guidelines | FAQ | Support | API | Security | Lists Bookmarklet | DMCA | Apply to YC | Contact </p>
-				<h>Search :</h>
-				<input type ="text " name = "" value = "" align="right" >
-			</div>
-	</div>
+            <div class ="item" style="margin-left: 15px;">
+                More
+            </div>
+            <div class="Bottomline"></div>
+            <div class = "item" style="text-align: center;" >
+                    Guidelines | FAQ | Support | API | Security | Lists Bookmarklet | DMCA | Apply to YC | Contact 
+                    Search : <input type ="text " name = "" value = "" align="right" >
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
 </body>
 </html>
