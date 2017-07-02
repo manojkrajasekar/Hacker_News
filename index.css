@@ -1,0 +1,46 @@
+.flex-container {
+        display: -webkit-flex;
+        display: flex;
+        width: auto;
+        height: auto;
+        margin-bottom : 20 px;
+}
+
+    
+.content {
+        background-color: #f6f6ef;
+        width: 85%;
+        height: auto;
+        margin: auto;
+}
+
+.item {
+        padding:2px;
+        padding-right: 50px;
+        white-space: pre-line;
+}
+
+.contents {
+        margin-left: 4px;
+}
+
+.Newsheader {
+        padding-top: 5px;
+        margin-bottom: 8px;
+        background-color: #ff6600;
+        height:22px;
+        width:100%;      
+        float:left;
+}
+
+
+.headerdiv {
+        padding-top: 4px;
+        padding-bottom: 4px;
+}
+
+.Bottomline {
+        width : 100%;
+        background-color: orange;
+        height : 1px;
+}
