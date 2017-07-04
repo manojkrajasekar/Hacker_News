@@ -1,42 +1,72 @@
-.flex-container {
-        display: -webkit-flex;
-        display: flex;
-        margin-bottom: 20 px;
+body {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 12px;
+}
+
+.container {
+        width: 85%;
+        min-width: 400px;
+        margin: auto;
+}
+
+.header {
+        background-color: #ff6600;
+        padding: 4px;
+}
+
+.header > .nav-item {
+        padding: 0px 4px;
+}
+
+.header > .nav-item.header {
+        font-weight: bold;
+}
+
+.header > .nav-item.active {
+        color: #fff;
+}
+
+.header > span > a {
+        color: #000;
+        text-decoration: none;
 }
     
 .content {
         background-color: #f6f6ef;
-        width: 85%;
-        margin: auto;
+        
+
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
 }
 
-.item {
-        padding: 2px;
-        padding-right: 50px;
-        margin-bottom: 7px;
-        white-space: pre-line;
+.content > .item-container {
+        padding: 5px 10px;
 }
 
-.contents {
-        margin-left: 4px;
+.content > .item-container > .rank {
+        color: #828282;
+        float: left;
+        padding-top: 3px;
 }
 
-.Newsheader {
-        padding-top: 5px;
-        margin-bottom: 8px;
-        background-color: #ff6600;
-        height:22px;
-        width:100%;      
-        float:left;
+.content > .item-container > .item-content {
+        float: left;
 }
 
-.headerdiv {
-        padding-top: 4px;
-        padding-bottom: 4px;
+.content > .item-container > .item-content > .item-head{
+        font-size: 13px;
+        padding: 3px;
 }
 
-.Bottomline {
-        width: 100%;
-        background-color: orange;
-        height: 1px;
+.content > .item-container > .item-content > .item-info{
+        font-size: 9px;
+        color: #828282;
+        padding: 1px;
+}
+
+.footer {
+        border-top: solid 1px #ff6600;
+        background-color: #f6f6ef;
+        text-align: center;
 }
