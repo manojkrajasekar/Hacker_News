@@ -1,15 +1,12 @@
 .flex-container {
         display: -webkit-flex;
         display: flex;
-        height: auto;
         margin-bottom: 20 px;
 }
-
     
 .content {
         background-color: #f6f6ef;
         width: 85%;
-        height: auto;
         margin: auto;
 }
 
@@ -43,5 +40,3 @@
         background-color: orange;
         height: 1px;
 }
-
-
