@@ -26,6 +26,17 @@ body {
         color: #fff;
 }
 
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  float:left;
+  margin-top: 8px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 7px solid grey;
+  display: inline-block;
+}
+
 .header > span > a {
         color: #000;
         text-decoration: none;
@@ -33,8 +44,6 @@ body {
     
 .content {
         background-color: #f6f6ef;
-        
-
         display: -webkit-flex;
         display: flex;
         flex-direction: column;
@@ -52,17 +61,120 @@ body {
 
 .content > .item-container > .item-content {
         float: left;
+
 }
 
-.content > .item-container > .item-content > .item-head{
+.content > .item-container > .item-content > .item-head {
         font-size: 13px;
         padding: 3px;
 }
 
-.content > .item-container > .item-content > .item-info{
+.content > .item-container > .item-content > .item-head > .title {
+        font-size: 13px;
+        padding: 3px;
+}
+
+.content > .item-container> .item-content > .item-info {
+        margin-left: 4px;
         font-size: 9px;
         color: #828282;
         padding: 1px;
+}
+
+.content > .item-container > .item-content > .item-comment {
+        float: left;
+        margin-left: 5px;
+        
+}
+.content > .item-first {
+        padding: 5px 10px;
+        margin-left: 72px;
+}
+
+.content > .item-first > .item-content {
+        float: left;
+        max-width: 97%;
+}
+
+.content > .item-first > .item-content > .item-head {
+        margin-left: 5px;
+        font-size: 13px;
+        padding: 3px;
+}
+
+.content > .item-first > .item-content > .item-info {
+        margin-left: 4px;
+        font-size: 9px;
+        color: #828282;
+        padding: 1px;
+        margin-bottom: 4px;
+}
+
+.content > .item-first > .item-content > .item-comment {
+        margin-left: 5px;
+        padding: 1px;
+        margin-bottom: 4px;
+}
+
+
+.content > .item-second {
+        padding: 5px 10px;
+        margin-left: 145px;
+}
+
+.content > .item-second > .item-content {
+        float: left;
+        max-width: 97%;
+}
+
+.content > .item-second > .item-content > .item-head {
+        margin-left: 5px;
+        font-size: 13px;
+        padding: 3px;
+}
+
+.content > .item-second > .item-content > .item-info {
+        margin-left: 4px;
+        font-size: 9px;
+        color: #828282;
+        padding: 1px;
+        margin-bottom: 4px;
+}
+
+.content > .item-second > .item-content > .item-comment {
+        margin-left: 5px;
+        padding: 1px;
+        margin-bottom: 4px;
+}
+
+.content > .item-third {
+        padding: 5px 10px;
+        margin-left: 210px;
+}
+
+.content > .item-third > .item-content {
+        float: left;
+        max-width: 95%;
+}
+
+.content > .item-third > .item-content > .item-head {
+        margin-left: 5px;
+        font-size: 13px;
+        padding: 3px;
+}
+
+.content > .item-third > .item-content > .item-info {
+        margin-left: 4px;
+        font-size: 9px;
+        color: #828282;
+        padding: 1px;
+        margin-bottom: 4px;
+}
+
+.content > .item-third > .item-content > .item-comment {
+        margin-left: 5px;
+        padding: 1px;
+        margin-bottom: 4px;
 }
 
 .footer {
