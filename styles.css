@@ -173,36 +173,6 @@ body {
         margin-bottom: 4px;
 }
 
-.content > .item-third {
-        padding: 5px 10px;
-        margin-left: 210px;
-}
-
-.content > .item-third > .item-content {
-        float: left;
-        max-width: 95%;
-}
-
-.content > .item-third > .item-content > .item-head {
-        margin-left: 5px;
-        font-size: 13px;
-        padding: 3px;
-}
-
-.content > .item-third > .item-content > .item-info {
-        margin-left: 4px;
-        font-size: 9px;
-        color: #828282;
-        padding: 1px;
-        margin-bottom: 4px;
-}
-
-.content > .item-third > .item-content > .item-comment {
-        margin-left: 5px;
-        padding: 1px;
-        margin-bottom: 4px;
-}
-
 .footer {
     border-top: solid 1px #ff6600;
     background-color: #f6f6ef;
